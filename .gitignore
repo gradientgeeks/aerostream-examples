@@ -1,0 +1,31 @@
+# Build artifacts
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Java / Maven
+*.class
+.m2/
+*.jar
+*.war
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
