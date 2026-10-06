@@ -68,7 +68,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("\n================================================================================");
     if all_passed {
         println!("  🎉 ALL RUST COMPATIBILITY TESTS PASSED! Total elapsed: {:?}", elapsed);
-        println!("  AeroStream is 100% compatible with Tokio-native Rust & Kafka applications!");
+        println!("  AeroStream is compatible with Tokio-native Rust & Kafka applications!");
         println!("================================================================================\n");
         std::process::exit(0);
     } else {

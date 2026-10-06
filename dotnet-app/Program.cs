@@ -43,7 +43,7 @@ namespace AeroStreamDotNetDemo
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"  🎉 ALL .NET (C#) COMPATIBILITY TESTS PASSED! Total time: {sw.ElapsedMilliseconds}ms");
                 Console.ResetColor();
-                Console.WriteLine("  AeroStream is 100% drop-in compatible with official Confluent.Kafka .NET!");
+                Console.WriteLine("  AeroStream is drop-in compatible with official Confluent.Kafka .NET!");
                 Console.WriteLine("================================================================================\n");
                 return 0;
             }

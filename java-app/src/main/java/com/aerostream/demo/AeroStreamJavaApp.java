@@ -26,7 +26,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * AeroStream Java Application Demo
  *
- * Demonstrates 100% wire-compatibility between the official Apache Kafka Java Client
+ * Demonstrates wire-compatibility between the official Apache Kafka Java Client
  * (org.apache.kafka:kafka-clients) and AeroStream's shard-per-core event streaming broker.
  */
 public class AeroStreamJavaApp {
@@ -75,7 +75,7 @@ public class AeroStreamJavaApp {
         System.out.println("\n================================================================================");
         if (allPassed) {
             System.out.println("  🎉 ALL JAVA COMPATIBILITY TESTS PASSED! Total elapsed: " + totalTime + " ms");
-            System.out.println("  AeroStream is 100% drop-in compatible with official Apache Kafka Java Client!");
+            System.out.println("  AeroStream is drop-in compatible with official Apache Kafka Java Client!");
             System.out.println("================================================================================\n");
             System.exit(0);
         } else {

@@ -1,6 +1,6 @@
 # AeroStream Java Application Example
 
-This project demonstrates 100% wire-protocol compatibility between the official **Apache Kafka Java Client** (`org.apache.kafka:kafka-clients`) and **AeroStream**.
+This project demonstrates wire-protocol compatibility between the official **Apache Kafka Java Client** (`org.apache.kafka:kafka-clients`) and **AeroStream**.
 
 ## Features Demonstrated
 1. **Cluster Administration (`AdminClient`)**: Cluster metadata discovery, broker identification, and dynamic topic creation.

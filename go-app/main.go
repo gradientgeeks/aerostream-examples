@@ -76,7 +76,7 @@ func main() {
 	fmt.Println("\n================================================================================")
 	if allPassed {
 		fmt.Printf("  🎉 ALL GO COMPATIBILITY TESTS PASSED! Total elapsed: %v\n", totalTime)
-		fmt.Println("  AeroStream is 100% compatible with pure Go Kafka & Native streaming!")
+		fmt.Println("  AeroStream is compatible with pure Go Kafka & Native streaming!")
 		fmt.Println("================================================================================\n")
 		os.Exit(0)
 	} else {
